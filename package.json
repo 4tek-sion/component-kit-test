@@ -8,20 +8,29 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "pod": "npx pod-install"
+    "pod": "npx pod-install",
+    "clean": "rm -rf node_modules && rm -rf yarn.lock && rm -rf package-lock.json && rm -rf ios/Podfile.lock && rm -rf ios/Pods && yarn cache clean && yarn install && yarn pod"
   },
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.71.6",
-    "react-native-v99-component-kit": "https://4tek-joker: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@github.com/4tek-group/v99_component_kit.git",
+    "react-native-v99-component-kit": "https://4tek-joker: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@github.com/4tek-group/v99_component_kit.git#develop",
+    "react-native-v99-bottom-sheet": "https://4tek-joker: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@github.com/4tek-group/v99_component_kit.git#V99BottomSheet",
     "react-native-blurhash": "1.1.10",
-    "react-native-fast-image": "8.6.1",
+    "react-native-fast-image": "8.6.3",
     "react-native-linear-gradient": "2.6.2",
     "react-native-safe-area-context": "^4.3.1",
     "react-native-spinkit": "1.5.1",
     "react-native-svg": "12.4.1",
     "@react-native-community/blur": "4.2.0",
-    "react-native-screens": "3.3.0"
+    "react-native-screens": "3.3.0",
+    "react-native-calendar-picker": "7.1.3",
+    "mobx": "6.7.0",
+    "mobx-react-lite": "3.4.0",
+    "@gorhom/bottom-sheet": "4.4.5",
+    "@gorhom/portal": "1.0.14",
+    "react-native-gesture-handler": "2.6.1",
+    "react-native-reanimated": "2.9.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
