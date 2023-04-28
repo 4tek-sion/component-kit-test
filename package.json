@@ -13,7 +13,7 @@
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.71.6",
-    "react-native-v99-component-kit": "https://4tek-joker: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@github.com/4tek-group/v99_component_kit.git",
+    "react-native-v99-component-kit": "https://4tek-joker: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@github.com/4tek-group/v99_component_kit.git#feature/ASR-153",
     "react-native-blurhash": "1.1.10",
     "react-native-fast-image": "8.6.1",
     "react-native-linear-gradient": "2.6.2",

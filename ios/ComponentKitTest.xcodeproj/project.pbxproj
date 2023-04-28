@@ -18,6 +18,7 @@
 		57333049402840D7A015BE38 /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60AC84DC943640699CEF1D2D /* SFProText-Bold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-ComponentKitTest-ComponentKitTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ComponentKitTest-ComponentKitTestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9A308AF62A9C4889828FD62D /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21AE83F37B2C4E1B8705798B /* Montserrat-ExtraLight.ttf */; };
 		A247AA15298B4D2CAC4BBB48 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6A6F883CE124DD6A6F2BE74 /* Montserrat-Bold.ttf */; };
 		A304101200A94F4EACF88951 /* SFProText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A8477BA3E62A4BFC8A6F67A5 /* SFProText-Bold.otf */; };
 		A45B7B51245B450B8DA6A60E /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C21612431F214EE999C802A1 /* SFProDisplay-Regular.ttf */; };
@@ -25,7 +26,6 @@
 		BCFBB162E7EB4472A787C54A /* UTM-Banque-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9C1513D2B554667838E1A29 /* UTM-Banque-Regular.ttf */; };
 		D283037D8C6D4D499F3E23A0 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5CAAC9E828A4D21ADC80A19 /* SFProText-Regular.ttf */; };
 		EB299452D8694FA8BE8796CD /* UTM-Banque-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A9D8AB821E14E81B58068FA /* UTM-Banque-Bold.ttf */; };
-		9A308AF62A9C4889828FD62D /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21AE83F37B2C4E1B8705798B /* Montserrat-ExtraLight.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +51,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ComponentKitTest/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ComponentKitTest-ComponentKitTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ComponentKitTest-ComponentKitTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9D8AB821E14E81B58068FA /* UTM-Banque-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UTM-Banque-Bold.ttf"; path = "../src/Assets/Fonts/UTM-Banque-Bold.ttf"; sourceTree = "<group>"; };
+		21AE83F37B2C4E1B8705798B /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../src/Assets/Fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
 		34713667C2664E30AEAB9671 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/Assets/Fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ComponentKitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentKitTest.debug.xcconfig"; path = "Target Support Files/Pods-ComponentKitTest/Pods-ComponentKitTest.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ComponentKitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentKitTest.release.xcconfig"; path = "Target Support Files/Pods-ComponentKitTest/Pods-ComponentKitTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +68,6 @@
 		C9C1513D2B554667838E1A29 /* UTM-Banque-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UTM-Banque-Regular.ttf"; path = "../src/Assets/Fonts/UTM-Banque-Regular.ttf"; sourceTree = "<group>"; };
 		D730BC2A6282467BAC722A72 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/Assets/Fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		21AE83F37B2C4E1B8705798B /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraLight.ttf"; path = "../src/Assets/Fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
